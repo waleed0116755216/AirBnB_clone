@@ -1,5 +1,5 @@
-
-lberton AirBnB Console """
+#!/usr/bin/python3
+""" Team AirBnB Console """
 import cmd
 import sys
 import json
@@ -128,6 +128,7 @@ class HBNBCommand(cmd.Cmd):
                     print('** attribute name missing **')
             else:
                 print('** no instance found **')
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
